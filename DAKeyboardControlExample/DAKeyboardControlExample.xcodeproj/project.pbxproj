@@ -18,7 +18,7 @@
 		B91BD8691D9C4C6300F5D39B /* DAKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = B91BD8671D9C4C6300F5D39B /* DAKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B91BD86C1D9C4C6300F5D39B /* DAKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91BD8651D9C4C6300F5D39B /* DAKeyboard.framework */; };
 		B91BD86D1D9C4C6300F5D39B /* DAKeyboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B91BD8651D9C4C6300F5D39B /* DAKeyboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B91BD8711D9C4C7400F5D39B /* DAKeyboardControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DD74B715B424B700E33D01 /* DAKeyboardControl.h */; };
+		B91BD8711D9C4C7400F5D39B /* DAKeyboardControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DD74B715B424B700E33D01 /* DAKeyboardControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B91BD8721D9C4C7400F5D39B /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD74B815B424B700E33D01 /* DAKeyboardControl.m */; };
 /* End PBXBuildFile section */
 
