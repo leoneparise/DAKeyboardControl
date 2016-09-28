@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char DAKeyboardVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DAKeyboard/PublicHeader.h>
 
-#import "DAKeyboardControl.h"
+#import <DAKeyboard/DAKeyboardControl.h>
