@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B91BD8641D9C4C6300F5D39B"
-               BuildableName = "DAKeyboard.framework"
-               BlueprintName = "DAKeyboard"
+               BlueprintIdentifier = "B91BD97D1D9CB38700F5D39B"
+               BuildableName = "DAKeyboardControl.framework"
+               BlueprintName = "DAKeyboardControl"
                ReferencedContainer = "container:DAKeyboardControlExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B91BD8641D9C4C6300F5D39B"
-            BuildableName = "DAKeyboard.framework"
-            BlueprintName = "DAKeyboard"
+            BlueprintIdentifier = "B91BD97D1D9CB38700F5D39B"
+            BuildableName = "DAKeyboardControl.framework"
+            BlueprintName = "DAKeyboardControl"
             ReferencedContainer = "container:DAKeyboardControlExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B91BD8641D9C4C6300F5D39B"
-            BuildableName = "DAKeyboard.framework"
-            BlueprintName = "DAKeyboard"
+            BlueprintIdentifier = "B91BD97D1D9CB38700F5D39B"
+            BuildableName = "DAKeyboardControl.framework"
+            BlueprintName = "DAKeyboardControl"
             ReferencedContainer = "container:DAKeyboardControlExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

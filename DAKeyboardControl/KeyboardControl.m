@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Daniel Amitay. All rights reserved.
 //
 
-#import "DAKeyboardControl.h"
+#import "KeyboardControl.h"
 #import <objc/runtime.h>
 
 

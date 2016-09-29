@@ -15,20 +15,20 @@
 		6366DFD815B3E76100FE53DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6366DFD715B3E76100FE53DE /* AppDelegate.m */; };
 		6366DFDB15B3E76100FE53DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6366DFDA15B3E76100FE53DE /* ViewController.m */; };
 		63ECD0631628CC5A004D8D10 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63ECD0621628CC5A004D8D10 /* Default-568h@2x.png */; };
-		B91BD8691D9C4C6300F5D39B /* DAKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = B91BD8671D9C4C6300F5D39B /* DAKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B91BD86C1D9C4C6300F5D39B /* DAKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91BD8651D9C4C6300F5D39B /* DAKeyboard.framework */; };
-		B91BD86D1D9C4C6300F5D39B /* DAKeyboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B91BD8651D9C4C6300F5D39B /* DAKeyboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B91BD8711D9C4C7400F5D39B /* DAKeyboardControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DD74B715B424B700E33D01 /* DAKeyboardControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B91BD8721D9C4C7400F5D39B /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD74B815B424B700E33D01 /* DAKeyboardControl.m */; };
+		B91BD9821D9CB38700F5D39B /* DAKeyboardControl.h in Headers */ = {isa = PBXBuildFile; fileRef = B91BD9801D9CB38700F5D39B /* DAKeyboardControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91BD9851D9CB38700F5D39B /* DAKeyboardControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91BD97E1D9CB38700F5D39B /* DAKeyboardControl.framework */; };
+		B91BD9861D9CB38700F5D39B /* DAKeyboardControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B91BD97E1D9CB38700F5D39B /* DAKeyboardControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B91BD98A1D9CB39800F5D39B /* KeyboardControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DD74B715B424B700E33D01 /* KeyboardControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91BD98B1D9CB39F00F5D39B /* KeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DD74B815B424B700E33D01 /* KeyboardControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B91BD86A1D9C4C6300F5D39B /* PBXContainerItemProxy */ = {
+		B91BD9831D9CB38700F5D39B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6366DFBA15B3E76000FE53DE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B91BD8641D9C4C6300F5D39B;
-			remoteInfo = DAKeyboard;
+			remoteGlobalIDString = B91BD97D1D9CB38700F5D39B;
+			remoteInfo = DAKeyboardControl;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,7 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B91BD86D1D9C4C6300F5D39B /* DAKeyboard.framework in Embed Frameworks */,
+				B91BD9861D9CB38700F5D39B /* DAKeyboardControl.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,12 +59,12 @@
 		6366DFD715B3E76100FE53DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6366DFD915B3E76100FE53DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6366DFDA15B3E76100FE53DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63DD74B715B424B700E33D01 /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
-		63DD74B815B424B700E33D01 /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
+		63DD74B715B424B700E33D01 /* KeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardControl.h; sourceTree = "<group>"; };
+		63DD74B815B424B700E33D01 /* KeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardControl.m; sourceTree = "<group>"; };
 		63ECD0621628CC5A004D8D10 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		B91BD8651D9C4C6300F5D39B /* DAKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DAKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B91BD8671D9C4C6300F5D39B /* DAKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAKeyboard.h; sourceTree = "<group>"; };
-		B91BD8681D9C4C6300F5D39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91BD97E1D9CB38700F5D39B /* DAKeyboardControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DAKeyboardControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91BD9801D9CB38700F5D39B /* DAKeyboardControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
+		B91BD9811D9CB38700F5D39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +74,12 @@
 			files = (
 				6366DFC815B3E76100FE53DE /* UIKit.framework in Frameworks */,
 				6366DFCA15B3E76100FE53DE /* Foundation.framework in Frameworks */,
-				B91BD86C1D9C4C6300F5D39B /* DAKeyboard.framework in Frameworks */,
+				B91BD9851D9CB38700F5D39B /* DAKeyboardControl.framework in Frameworks */,
 				6366DFCC15B3E76100FE53DE /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B91BD8611D9C4C6300F5D39B /* Frameworks */ = {
+		B91BD97A1D9CB38700F5D39B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,7 +94,7 @@
 			children = (
 				63DD74B615B424B700E33D01 /* DAKeyboardControl */,
 				6366DFCD15B3E76100FE53DE /* DAKeyboardControlExample */,
-				B91BD8661D9C4C6300F5D39B /* DAKeyboard */,
+				B91BD97F1D9CB38700F5D39B /* DAKeyboardControl */,
 				6366DFC615B3E76100FE53DE /* Frameworks */,
 				6366DFC415B3E76100FE53DE /* Products */,
 			);
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				6366DFC315B3E76100FE53DE /* DAKeyboardControlExample.app */,
-				B91BD8651D9C4C6300F5D39B /* DAKeyboard.framework */,
+				B91BD97E1D9CB38700F5D39B /* DAKeyboardControl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,31 +146,31 @@
 		63DD74B615B424B700E33D01 /* DAKeyboardControl */ = {
 			isa = PBXGroup;
 			children = (
-				63DD74B715B424B700E33D01 /* DAKeyboardControl.h */,
-				63DD74B815B424B700E33D01 /* DAKeyboardControl.m */,
+				63DD74B715B424B700E33D01 /* KeyboardControl.h */,
+				63DD74B815B424B700E33D01 /* KeyboardControl.m */,
 			);
 			name = DAKeyboardControl;
 			path = ../DAKeyboardControl;
 			sourceTree = "<group>";
 		};
-		B91BD8661D9C4C6300F5D39B /* DAKeyboard */ = {
+		B91BD97F1D9CB38700F5D39B /* DAKeyboardControl */ = {
 			isa = PBXGroup;
 			children = (
-				B91BD8671D9C4C6300F5D39B /* DAKeyboard.h */,
-				B91BD8681D9C4C6300F5D39B /* Info.plist */,
+				B91BD9801D9CB38700F5D39B /* DAKeyboardControl.h */,
+				B91BD9811D9CB38700F5D39B /* Info.plist */,
 			);
-			path = DAKeyboard;
+			path = DAKeyboardControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B91BD8621D9C4C6300F5D39B /* Headers */ = {
+		B91BD97B1D9CB38700F5D39B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91BD8711D9C4C7400F5D39B /* DAKeyboardControl.h in Headers */,
-				B91BD8691D9C4C6300F5D39B /* DAKeyboard.h in Headers */,
+				B91BD98A1D9CB39800F5D39B /* KeyboardControl.h in Headers */,
+				B91BD9821D9CB38700F5D39B /* DAKeyboardControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,29 +189,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				B91BD86B1D9C4C6300F5D39B /* PBXTargetDependency */,
+				B91BD9841D9CB38700F5D39B /* PBXTargetDependency */,
 			);
 			name = DAKeyboardControlExample;
 			productName = DAKeyboardControlExample;
 			productReference = 6366DFC315B3E76100FE53DE /* DAKeyboardControlExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B91BD8641D9C4C6300F5D39B /* DAKeyboard */ = {
+		B91BD97D1D9CB38700F5D39B /* DAKeyboardControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91BD86E1D9C4C6300F5D39B /* Build configuration list for PBXNativeTarget "DAKeyboard" */;
+			buildConfigurationList = B91BD9871D9CB38700F5D39B /* Build configuration list for PBXNativeTarget "DAKeyboardControl" */;
 			buildPhases = (
-				B91BD8601D9C4C6300F5D39B /* Sources */,
-				B91BD8611D9C4C6300F5D39B /* Frameworks */,
-				B91BD8621D9C4C6300F5D39B /* Headers */,
-				B91BD8631D9C4C6300F5D39B /* Resources */,
+				B91BD9791D9CB38700F5D39B /* Sources */,
+				B91BD97A1D9CB38700F5D39B /* Frameworks */,
+				B91BD97B1D9CB38700F5D39B /* Headers */,
+				B91BD97C1D9CB38700F5D39B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DAKeyboard;
-			productName = DAKeyboard;
-			productReference = B91BD8651D9C4C6300F5D39B /* DAKeyboard.framework */;
+			name = DAKeyboardControl;
+			productName = DAKeyboardControl;
+			productReference = B91BD97E1D9CB38700F5D39B /* DAKeyboardControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +226,7 @@
 					6366DFC215B3E76100FE53DE = {
 						LastSwiftMigration = 0800;
 					};
-					B91BD8641D9C4C6300F5D39B = {
+					B91BD97D1D9CB38700F5D39B = {
 						CreatedOnToolsVersion = 8.0;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
@@ -246,7 +246,7 @@
 			projectRoot = "";
 			targets = (
 				6366DFC215B3E76100FE53DE /* DAKeyboardControlExample */,
-				B91BD8641D9C4C6300F5D39B /* DAKeyboard */,
+				B91BD97D1D9CB38700F5D39B /* DAKeyboardControl */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B91BD8631D9C4C6300F5D39B /* Resources */ = {
+		B91BD97C1D9CB38700F5D39B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,21 +281,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B91BD8601D9C4C6300F5D39B /* Sources */ = {
+		B91BD9791D9CB38700F5D39B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91BD8721D9C4C7400F5D39B /* DAKeyboardControl.m in Sources */,
+				B91BD98B1D9CB39F00F5D39B /* KeyboardControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B91BD86B1D9C4C6300F5D39B /* PBXTargetDependency */ = {
+		B91BD9841D9CB38700F5D39B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91BD8641D9C4C6300F5D39B /* DAKeyboard */;
-			targetProxy = B91BD86A1D9C4C6300F5D39B /* PBXContainerItemProxy */;
+			target = B91BD97D1D9CB38700F5D39B /* DAKeyboardControl */;
+			targetProxy = B91BD9831D9CB38700F5D39B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,7 +416,7 @@
 			};
 			name = Release;
 		};
-		B91BD86F1D9C4C6300F5D39B /* Debug */ = {
+		B91BD9881D9CB38700F5D39B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -436,12 +436,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = DAKeyboard/Info.plist;
+				INFOPLIST_FILE = DAKeyboardControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = us.amitay.DAKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = us.amitay.DAKeyboardControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -450,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		B91BD8701D9C4C6300F5D39B /* Release */ = {
+		B91BD9891D9CB38700F5D39B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -472,12 +472,12 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = DAKeyboard/Info.plist;
+				INFOPLIST_FILE = DAKeyboardControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = us.amitay.DAKeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = us.amitay.DAKeyboardControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -507,14 +507,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91BD86E1D9C4C6300F5D39B /* Build configuration list for PBXNativeTarget "DAKeyboard" */ = {
+		B91BD9871D9CB38700F5D39B /* Build configuration list for PBXNativeTarget "DAKeyboardControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B91BD86F1D9C4C6300F5D39B /* Debug */,
-				B91BD8701D9C4C6300F5D39B /* Release */,
+				B91BD9881D9CB38700F5D39B /* Debug */,
+				B91BD9891D9CB38700F5D39B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
